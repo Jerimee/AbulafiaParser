@@ -6,10 +6,14 @@
 	],
 	"url": "http://www.random-generator.com",
 	"descriptionmsg": "pfunc_desc",
+	"description": "rolls tables for Abulafia",
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",
 	"requires": {
 		"MediaWiki": ">= 1.32.0"
+	},
+	"AutoloadClasses": {
+		"AbulafiaParser": "AbulafiaParser.php"
 	},
 	"manifest_version": 1
 }
