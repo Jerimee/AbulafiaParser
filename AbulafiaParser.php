@@ -2,6 +2,7 @@
 $wgExtensionFunctions[] = "wfRandomExtension";
 
 function wfRandomExtension() {
+    //deprecated global - https://www.mediawiki.org/wiki/Manual:$wgParser
     global $wgParser;
     //$wgParser->disableCache();
     $wgParser->setHook("sgtable","parseForDb");
